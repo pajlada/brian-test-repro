@@ -1,7 +1,6 @@
 # Reproduce locally
 
-1. `npm ci`
-2. `node index.js`
+1. `node index.mjs`
 
 # Reproduce on docker
 

@@ -1,8 +1,6 @@
 ARG NODE_VERSION
 FROM node:$NODE_VERSION
 
-ADD . ./
+ADD index.mjs .
 
-RUN npm ci
-
-CMD ["node", "index.js"]
+CMD ["node", "index.mjs"]
